@@ -1,5 +1,8 @@
 package com.github.vmbenchmarks;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class User {
     public enum Gender { MALE, FEMALE };
 
