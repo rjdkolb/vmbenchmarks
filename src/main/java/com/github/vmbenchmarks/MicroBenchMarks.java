@@ -1,9 +1,10 @@
 package com.github.vmbenchmarks;
 
+import org.openjdk.jmh.annotations.Benchmark;
+
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import org.openjdk.jmh.annotations.Benchmark;
 
 public class MicroBenchMarks {
 

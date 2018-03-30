@@ -3,13 +3,12 @@ package com.github.vmbenchmarks;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import static com.github.vmbenchmarks.JaxbMashalUnMashal.staticCounter;
-import java.io.File;
-import java.util.concurrent.atomic.AtomicInteger;
-import org.openjdk.jmh.annotations.Benchmark;
 import com.github.vmbenchmarks.User.Name;
-import java.io.IOException;
+import org.openjdk.jmh.annotations.Benchmark;
+
 import javax.xml.bind.JAXBException;
+import java.io.IOException;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Jackson {
 
