@@ -2,8 +2,6 @@ package com.github.vmbenchmarks;
 
 import groovy.lang.Binding;
 import groovy.lang.GroovyShell;
-import java.io.BufferedReader;
-import java.io.StringReader;
 import org.openjdk.jmh.annotations.Benchmark;
 
 public class DynamicLanguages {

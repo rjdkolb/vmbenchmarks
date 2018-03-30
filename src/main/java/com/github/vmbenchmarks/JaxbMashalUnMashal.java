@@ -1,14 +1,15 @@
 package com.github.vmbenchmarks;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import java.io.StringReader;
-import java.io.StringWriter;
-import java.util.concurrent.atomic.AtomicLong;
+import org.openjdk.jmh.annotations.Benchmark;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import org.openjdk.jmh.annotations.Benchmark;
+import java.io.StringReader;
+import java.io.StringWriter;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class JaxbMashalUnMashal {
 
